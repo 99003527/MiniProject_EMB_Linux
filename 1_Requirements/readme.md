@@ -2,7 +2,7 @@ Requirements:
 
 | Req_ID           | Description                                                         |
 |------------------|---------------------------------------------------------------------|
-|     H_01         | Beagle Bone Black – A microprocessor used as a primary controller unit |
+|     H_01         |         Beagle Bone Black – A microprocessor used as a primary controller unit        |
 |     H_02         |         Joystick (to use as a front and back gear)     |
 |     H_01_L_01    |         Terminals                                                  |
 |     H_01_L_02    |         Linux Operating System                                      |
