@@ -1,4 +1,4 @@
-Requirements:
+## Requirements:
 
 | Req_ID           | Description                                                         |
 |------------------|---------------------------------------------------------------------|
@@ -7,3 +7,5 @@ Requirements:
 |     H_01_L_01    |         Terminals                                                  |
 |     H_01_L_02    |         Linux Operating System                                      |
 |     H_02_L_01    |         LED to indicate the front and  back gear                     |
+
+Here, joystick is used to represetn the gear system of a car. External LED is used to show the ouput when the gear is changed to forward, backward or neutral.
