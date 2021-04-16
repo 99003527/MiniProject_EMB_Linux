@@ -37,21 +37,21 @@ int main()
 {
 	int press_count = 0; //counter to record the number of times the joystick is pressesed.
 	int led_flash_mode = 0; //how many times to flash the LED light.
-    printf("A simple mini-project using a joystick and LED to show the working of automatic gear system in automobiles \n");
+        printf("A simple mini-project using a joystick and LED to show the working of automatic gear system in automobiles \n");
 	while(1) 
-    {		
+     	{		
 	    int joystick_pressed_up = checkIfPressed();	// Receving the output from GPIO pin.
 		if (joystick_pressed_up == 1) 
-        {
-            press_count++;
+       		 {
+           	 press_count++;
 	        led_flash_mode = BRIGHTNESS_DELAY_7;	
 		}
 		else 
-        {
+       		 {
 			led_flash_mode = BRIGHTNESS_DELAY_1;
             //led_flash_mode = BRIGHTNESS_DELAY_3;
             press_count++;
-        }
+        	}
 	    printf("Flashing %d time(s):  Joystick = %d & counter = %d\n", led_flash_mode, joystick_pressed_up, press_count);
 		flashLED(led_flash_mode);
 	} // end while loop
